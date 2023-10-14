@@ -12,7 +12,7 @@
 require "fchange"
 
 if ARGV.size != 1 || ARGV[0] =~ /--help|-h/
-  $stderr.print "Usage: ruby fchange.rb file|directory\n"
+  $stderr.print "Usage: fchange file|directory\n"
   $stderr.print "  Changes the characters in the filename.\n"
   $stderr.print "  \" \" => \"_\" (blank to underscore)\n"
   $stderr.print "  \"\\t\" => \"_\" (tab to underscore)\n"
